@@ -19,6 +19,12 @@ button{
     border-color:#0A3871;
 }
 
+span{
+    padding:0 3px;
+    border-radius: 50%;
+    border: #0A3871 solid 2px;
+}
+
 .logo{
     position: absolute;
     font-size: 80px;
