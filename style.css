@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #F3F5FC;
+}
+div{
+    margin: 0 auto;
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color:rgba(0, 0, 0, 0);
+    border-color:#0A3871;
+}
+
+.logo{
+    position: absolute;
+    font-size: 80px;
+    color: #0A3871;
+    left: 50px;
+    top: 10px;
+}
+
+.principal{
+    display: flex;
+    width: 90%;
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 70%;
+    height: 90vh;
+    justify-content: space-between;
+}
+.lateral{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: solid #0A3871 3px;
+}
+
+.frase{
+    width: 50vw;
+    margin: 70px auto;
+    border: none;
+    height: 60vh;
+    text-align:start;
+    background-color: #F3F5FC;
+    padding: 0 20px;
+}
+
+.frase:focus{
+    outline: none;
+}
+
+.aviso, .botones{
+    display: flex;
+    width: 50vw;
+    margin:auto;
+    border: none;
+}
+
+.aviso{
+    padding:10px 10px;
+}
+
+.btn{
+    width: 50%;
+}
+
+.btn1{
+    background-color: #0A3871;
+    color: white;
+}
+
+
+.lateral{
+    position: absolute;
+    height: 90vh;
+    right: 5%;
+    background-color: white;
+}
+
+.cuerpo{
+    margin: auto;
+    width: 80%;
+}
+
+.copiar{
+    width: 200px;
+    margin-bottom: 50px;
+    
+}
+
